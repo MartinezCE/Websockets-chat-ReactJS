@@ -1,0 +1,33 @@
+{
+  "name": "websockets-chat-react",
+  "version": "1.0.0",
+  "description": "Proyecto de chat web, con React js , express js y socket.io.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"npm --prefix client install && npm run --prefix client build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinezCE/Websockets-chat-React.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinezCE/Websockets-chat-React/issues"
+  },
+  "homepage": "https://github.com/MartinezCE/Websockets-chat-React#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

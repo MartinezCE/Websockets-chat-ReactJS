@@ -1,0 +1,13 @@
+.content-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-title h1{
+  color: #78CE9F;
+}
+
+.header-p{
+  color:white;
+}
